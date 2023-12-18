@@ -8,7 +8,7 @@ const Services = () => {
 },[])
     return (
         <div className="p-5">
-            <h1 className="text-6xl font-bold text-center my-5">My Services</h1>
+            <h1 className="text-6xl font-bold text-white text-center my-5">My Services</h1>
             <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-5 mx-10 items-center justify-center">
             <article data-aos="zoom-in-down" className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
   <img

@@ -24,7 +24,7 @@ const date=moment().subtract(10, 'days').calendar();
       <div>
       <h1  className="text-5xl robiul "> <span>MD</span> ROBIUL <span>IS</span>LAM</h1></div>
       <h1 className="text-2xl font-bold">MERN stack Developer </h1>
-      <p className="text-xl mb-5">Specialist in React </p>
+      <p className="text-xl text-white mb-5">Specialist in React </p>
      <a href={Resume} download={Resume}> <button
   className="btn  font-bold text-xl bg-gradient-to-r from-blue-600 to-green-400  hover:bg-yellow-500 btn-outline">
   Download Resume

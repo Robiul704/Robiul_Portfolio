@@ -39,12 +39,8 @@ const Contact = () => {
 			</div>
 			<div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
 				<div className="col-span-full sm:col-span-3">
-					<label for="firstname" className="text-sm">First name</label>
+					<label for="firstname" className="text-sm"> Name</label>
 					<input name="message" id="firstname" type="text" placeholder="First name" className="w-full border-2 text-black border-black rounded-lg p-2" />
-				</div>
-				<div className="col-span-full sm:col-span-3">
-					<label for="lastname" className="text-sm">Last name</label>
-					<input name="message" id="lastname" type="text" placeholder="Last name" className="w-full border-2 text-black border-black rounded-lg p-2" />
 				</div>
 				<div className="col-span-full sm:col-span-3">
 					<label for="email" className="text-sm">Email</label>
@@ -54,18 +50,12 @@ const Contact = () => {
 					<label for="address" className="text-sm">Address</label>
 					<input name="message" id="address" type="text" placeholder="" className="w-full border-2 text-black border-black rounded-lg p-2" />
 				</div>
-				<div className="col-span-full sm:col-span-2">
-					<label for="city" className="text-sm">City</label>
-					<input name="message" id="city" type="text" placeholder="" className="w-full border-2 text-black border-black rounded-lg p-2" />
+				<div className="col-span-full">
+					<label for="textarea" className="text-sm">Message</label>
+					<textarea className="textarea w-full border-2 text-black border-black rounded-lg p-2" placeholder="Message"></textarea>
 				</div>
-				<div className="col-span-full sm:col-span-2">
-					<label for="state" className="text-sm">State / Province</label>
-					<input name="message" id="state" type="text" placeholder="" className="w-full border-2 text-black border-black rounded-lg p-2" />
-				</div>
-				<div className="col-span-full sm:col-span-2">
-					<label for="zip" className="text-sm">ZIP / Postal</label>
-					<input name="message" id="zip" type="text" placeholder="" className="w-full border-2 text-black border-black rounded-lg p-2" />
-				</div>
+				
+				
 				<input className="btn btn-outline px-10 py-3 text-xl font-bold text-white bg-red-500" type="submit" value="Send" />
 			</div>
 		</fieldset>

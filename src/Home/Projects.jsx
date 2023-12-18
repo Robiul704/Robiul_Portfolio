@@ -22,7 +22,7 @@ const Projects = () => {
     return (
         <div>
             <h1 className="text-5xl font-bold text-center text-white my-5">Projects</h1>
-       <div className="bg-purple-400 p-10 rounded-2xl">
+       <div className="bg-gradient-to-r pt-5 from-orange-100 to-teal-200 p-10 rounded-2xl">
        <div className="">
          <div className="grid lg:grid-cols-2 py-10 justify-around items-center gap-5">
             {/* 1 */}
@@ -31,9 +31,9 @@ const Projects = () => {
          
                 </div>
                 <div>
-                    <a href="https://brand-shop-39abd.web.app"><h1 className="btn btn-outline bg-blue-500 ">Live Link</h1></a>
-                    <a href="https://github.com/Robiul704/tech-store-server"><h1 className="btn btn-outline bg-blue-500 ">Server Code</h1></a>
-                    <a href="https://github.com/Robiul704/tech-store-client"> <h1 className="btn btn-outline bg-blue-500 ">Client code</h1></a>
+                    <a href="https://brand-shop-39abd.web.app"><h1 className="btn btn-outline bg-red-300 ">Live Link</h1></a>
+                    <a href="https://github.com/Robiul704/tech-store-server"><h1 className="btn btn-outline m-5 bg-red-300 ">Server Code</h1></a>
+                    <a href="https://github.com/Robiul704/tech-store-client"> <h1 className="btn btn-outline bg-red-300 ">Client code</h1></a>
                     
                    
                 </div>
@@ -53,17 +53,17 @@ const Projects = () => {
            
             </div>
          {/* 2 */}
-        <div className="bg-red-600 my-10 p-10 rounded-2xl">
-        <div className="bg-red-600 ">
-         <div className="grid lg:grid-cols-2 p-10 justify-around bg-red-600 items-center gap-5">
+        <div className="bg-gradient-to-r pt-5  from-orange-100 to-teal-200 my-10 p-10 rounded-2xl">
+        <div className=" ">
+         <div className="grid lg:grid-cols-2 p-10 justify-around  items-center gap-5">
                 <div className="">
                 <h1 className="text-black font-bold text-4xl">02.Service Provider(Products Selling Website </h1>
          
                 </div>
                 <div>
-                    <a href="https://dimple-firebase-e6967.web.app"><h1 className="btn btn-outline bg-blue-500 ">Live Link</h1></a>
-                    <a href="https://github.com/Robiul704/visitors-client"><h1 className="btn btn-outline bg-blue-500 ">Server Code</h1></a>
-                    <a href="https://github.com/Robiul704/service-provider-client"> <h1 className="btn btn-outline bg-blue-500 ">Client code</h1></a>
+                    <a href="https://dimple-firebase-e6967.web.app"><h1 className="btn btn-outline bg-red-300 ">Live Link</h1></a>
+                    <a href="https://github.com/Robiul704/visitors-client"><h1 className="btn btn-outline m-5 bg-red-300 ">Server Code</h1></a>
+                    <a href="https://github.com/Robiul704/service-provider-client"> <h1 className="btn btn-outline bg-red-300 ">Client code</h1></a>
                     
                    
                 </div>
@@ -84,17 +84,17 @@ const Projects = () => {
             </div>
         </div>
          {/* //3 */}
-     <div className="bg-sky-500 p-10 rounded-2xl mb-5">
-     <div className="bg-sky-500">
-         <div className="grid lg:grid-cols-2 py-10 justify-around bg-sky-500 p-10 items-center gap-5">
+     <div className="bg-gradient-to-r pt-5 from-orange-100 to-teal-200 p-10 rounded-2xl mb-5">
+     <div className="">
+         <div className="grid lg:grid-cols-2 py-10 justify-around  p-10 items-center gap-5">
                 <div className="">
                 <h1 className="text-black font-bold text-4xl">03.VisiTors (Blogs Website) </h1>
           
                 </div>
-                <div>
-                    <a href="https://agni-2-31315.web.app"><h1 className="btn btn-outline bg-blue-500 ">Live Link</h1></a>
-                    <a href="https://github.com/Robiul704/visitors-server"><h1 className="btn btn-outline bg-blue-500 ">Server Code</h1></a>
-                    <a href="https://github.com/Robiul704/visitors-client"> <h1 className="btn btn-outline bg-blue-500 ">Client code</h1></a>
+                <div className="ml-5">
+                    <a href="https://agni-2-31315.web.app"><h1 className="btn btn-outline bg-red-300 ">Live Link</h1></a>
+                    <a href="https://github.com/Robiul704/visitors-server"><h1 className="btn btn-outline m-5 bg-red-300 ">Server Code</h1></a>
+                    <a href="https://github.com/Robiul704/visitors-client"> <h1 className="btn btn-outline bg-red-300 ">Client code</h1></a>
                     
                    
                 </div>
